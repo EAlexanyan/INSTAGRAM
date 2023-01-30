@@ -1,0 +1,41 @@
+
+.formDiv{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100 auto;
+}
+
+.formDiv form{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formDiv form .addPostInput{
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.formDiv form .addPostInput:focus{
+    border-color: rgb(145, 145, 145);
+}
+
+.formDiv form .buttonAddpost{
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: silver;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.formDiv form .buttonAddpost:hover{
+    background-color: rgb(37, 149, 253);	
+    color: white;
+}
